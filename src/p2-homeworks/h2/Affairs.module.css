@@ -1,3 +1,95 @@
-.someClass {
+.container {
+	max-width: 630px;
+	padding: 0 15px 70px;
+	width: 100%;
+	margin: 0 auto;
+}
 
+.list {
+	height: 300px;
+	padding-right: 20px;
+	margin-right: -30px;
+	overflow: auto;
+}
+
+.list::-webkit-scrollbar {
+	width: 8px;
+}
+
+.list::-webkit-scrollbar-track {
+	background: #e5e5e5;
+	border-radius: 5px;
+}
+
+.list::-webkit-scrollbar-thumb {
+	background-color: #d01d22;
+	border-radius: 5px;
+}
+
+.list li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 24px;
+	line-height: 27px;
+}
+
+.list li + li {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #bdbdbd;
+}
+
+.filterBtns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.filterBtn {
+	font-size: 26px;
+	line-height: 26px;
+	color: #ffffff;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 3px;
+	background-color: #d01d22;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.filterBtn:hover {
+	background-color: #ac181c;
+}
+
+.removeBtn {
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+
+.removeBtn svg {
+	transition: fill 0.3s ease;
+}
+
+.removeBtn:hover svg {
+	fill: #d01d22;
+}
+
+.priority {
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+.red {
+	color: #d01d22;
+}
+
+.yellow {
+	color: #eab616;
+}
+
+.green {
+	color: #45e509;
 }
