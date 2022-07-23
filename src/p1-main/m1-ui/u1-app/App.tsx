@@ -2,6 +2,7 @@ import React from 'react'
 import s from './App.module.css'
 import HW1 from '../../../p2-homeworks/h1/HW1'
 import HW2 from '../../../p2-homeworks/h2/HW2';
+import HW3 from '../../../p2-homeworks/h3/HW3';
 
 function App() {
 	return (
@@ -14,7 +15,10 @@ function App() {
 				<div className={s.title}>Homework 2</div>
 				<HW2/>
 			</div>
-			{/*<HW3/>*/}
+			<div className={s.block}>
+				<div className={s.title}>Homework 3</div>
+				<HW3/>
+			</div>
 			{/*<HW4/>*/}
 			{/*<HW5/>*/}
 

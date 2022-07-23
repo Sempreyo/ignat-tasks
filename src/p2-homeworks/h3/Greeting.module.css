@@ -1,7 +1,61 @@
-.someClass {
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
 
+.field {
+    display: flex;
+    flex-direction: column;
 }
 
 .error {
-    border: 1px solid red;
+    border-color: #d01d22;
+}
+
+.errorMsg {
+    font-size: 16px;
+    font-weight: 500;
+    color: #d01d22;
+}
+
+.error:hover,
+.error:focus {
+    border-color: #d01d22;
+}
+
+.totalUsers {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.totalUsers span {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.usersList {
+    margin-top: 30px;
+    list-style: auto;
+}
+
+.usersList li {
+    font-size: 20px;
+}
+
+.usersList li + li {
+    margin-top: 15px;
+}
+
+.usersList li::marker {
+    font-weight: 500;
+}
+
+.usersList li p:first-child {
+    font-size: 26px;
+    font-weight: 500;
 }
