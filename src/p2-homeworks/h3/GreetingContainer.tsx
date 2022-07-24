@@ -1,4 +1,4 @@
-import React, {ChangeEvent, useEffect, useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import Greeting from './Greeting'
 import {UserType} from './HW3';
 import {getGeolocation} from '../../api/api';
@@ -8,8 +8,6 @@ type GreetingContainerPropsType = {
     addUserCallback: (name: string, country: string, city: string) => void // need to fix any
 }
 
-export type ErrorType = string | null
-
 // более простой и понятный для новичков
 // function GreetingContainer(props: GreetingPropsType) {
 
@@ -17,9 +15,9 @@ export type ErrorType = string | null
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
     const [name, setName] = useState<string>('') // need to fix any
-    const [error, setError] = useState<ErrorType>(null) // need to fix any
     const [country, setCountry] = useState<string>('')
     const [city, setCity] = useState<string>('')
+    const error = name ? '' : 'Field is required!'
 
     useEffect(() => {
         getGeolocation().then((response: any) => {
@@ -28,18 +26,11 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         })
     }, [])
 
-    const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
-        setError(null)
-        setName(e.currentTarget.value) // need to fix
-    }
-
     const addUser = () => {
         if (name.trim() !== '') {
             alert(`Hello ${name}!`) // need to fix
             addUserCallback(name.trim(), country, city)
             setName('')
-        } else {
-            setError('Field is required!')
         }
     }
 
@@ -49,7 +40,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
       <Greeting
         users={users}
         name={name}
-        setNameCallback={setNameCallback}
+        setName={setName}
         addUser={addUser}
         error={error}
         totalUsers={totalUsers}

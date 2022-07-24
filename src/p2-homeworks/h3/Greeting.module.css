@@ -5,24 +5,8 @@
     justify-content: center;
 }
 
-.field {
-    display: flex;
-    flex-direction: column;
-}
-
-.error {
-    border-color: #d01d22;
-}
-
-.errorMsg {
-    font-size: 16px;
-    font-weight: 500;
-    color: #d01d22;
-}
-
-.error:hover,
-.error:focus {
-    border-color: #d01d22;
+.addBtn {
+    width: 100px;
 }
 
 .totalUsers {

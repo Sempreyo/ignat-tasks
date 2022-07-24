@@ -1,12 +1,38 @@
-.superInput {
+.field {
+    display: flex;
+    flex-direction: column;
+}
 
+.superInput {
+    max-width: 250px;
+    width: 100%;
+    height: 46px;
+    margin: 0;
+    padding: 0 10px;
+    border: 2px solid #656565;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 20px;
+    transition: border-color 0.3s ease;
+}
+
+.superInput:hover,
+.superInput:focus {
+    border: 2px solid #000000;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    border-color: #d01d22;
+}
+
+.errorInput:hover,
+.errorInput:focus {
+    border-color: #d01d22;
 }
 
 .error {
-    color: red;
+    font-size: 16px;
+    font-weight: 500;
+    color: #d01d22;
 }

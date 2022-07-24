@@ -1,7 +1,25 @@
 .default {
+    font-size: 26px;
+    line-height: 26px;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 3px;
+    background-color: #d01d22;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
+.default:hover {
+    background-color: #ac181c;
+}
+
+.default:disabled {
+    background-color: #a5a5a5;
+    color: #6d6d6d;
+    pointer-events: none;
 }
 
 .red {
-    background: red;
+    background-color: red;
 }

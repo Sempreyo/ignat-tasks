@@ -35,6 +35,12 @@ code {
     background-color: #ac181c;
 }
 
+.btn:disabled {
+    background-color: #a5a5a5;
+    color: #6d6d6d;
+    pointer-events: none;
+}
+
 input {
     height: 46px;
     margin: 0;
