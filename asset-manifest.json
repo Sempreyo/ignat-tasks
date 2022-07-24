@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ignat-tasks/static/css/main.2a221644.chunk.css",
+    "main.js": "/ignat-tasks/static/js/main.fdc59852.chunk.js",
+    "main.js.map": "/ignat-tasks/static/js/main.fdc59852.chunk.js.map",
+    "runtime-main.js": "/ignat-tasks/static/js/runtime-main.1e72cd74.js",
+    "runtime-main.js.map": "/ignat-tasks/static/js/runtime-main.1e72cd74.js.map",
+    "static/js/2.26ba5a61.chunk.js": "/ignat-tasks/static/js/2.26ba5a61.chunk.js",
+    "static/js/2.26ba5a61.chunk.js.map": "/ignat-tasks/static/js/2.26ba5a61.chunk.js.map",
+    "index.html": "/ignat-tasks/index.html",
+    "precache-manifest.bf6b48ed9cfd73005ca48f37cb46e59d.js": "/ignat-tasks/precache-manifest.bf6b48ed9cfd73005ca48f37cb46e59d.js",
+    "service-worker.js": "/ignat-tasks/service-worker.js",
+    "static/css/main.2a221644.chunk.css.map": "/ignat-tasks/static/css/main.2a221644.chunk.css.map",
+    "static/js/2.26ba5a61.chunk.js.LICENSE.txt": "/ignat-tasks/static/js/2.26ba5a61.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpg": "/ignat-tasks/static/media/avatar.cfd8c3ed.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e72cd74.js",
+    "static/js/2.26ba5a61.chunk.js",
+    "static/css/main.2a221644.chunk.css",
+    "static/js/main.fdc59852.chunk.js"
+  ]
+}
