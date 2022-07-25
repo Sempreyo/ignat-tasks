@@ -39,12 +39,12 @@ function Affairs(props: AffairsPropsType) {
 				{mappedAffairs}
 			</ul>
 
-      <div className={s.filterBtns}>
+			<div className={s.filterBtns}>
 				<SuperButton onClick={setAll}>All</SuperButton>
 				<SuperButton onClick={setHigh}>High</SuperButton>
 				<SuperButton onClick={setMiddle}>Middle</SuperButton>
 				<SuperButton onClick={setLow}>Low</SuperButton>
-      </div>
+			</div>
 		</div>
 	)
 }

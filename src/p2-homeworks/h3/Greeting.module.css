@@ -1,45 +1,45 @@
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
 }
 
 .addBtn {
-    width: 100px;
+	width: 100px;
 }
 
 .totalUsers {
-    width: 100%;
-    text-align: center;
-    font-size: 28px;
-    font-weight: 500;
-    margin-top: 20px;
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 500;
+	margin-top: 20px;
 }
 
 .totalUsers span {
-    font-size: 36px;
-    font-weight: 700;
+	font-size: 36px;
+	font-weight: 700;
 }
 
 .usersList {
-    margin-top: 30px;
-    list-style: auto;
+	margin-top: 30px;
+	list-style: auto;
 }
 
 .usersList li {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 .usersList li + li {
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 .usersList li::marker {
-    font-weight: 500;
+	font-weight: 500;
 }
 
 .usersList li p:first-child {
-    font-size: 26px;
-    font-weight: 500;
+	font-size: 26px;
+	font-weight: 500;
 }

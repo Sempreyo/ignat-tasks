@@ -1,11 +1,11 @@
 import React from 'react'
 
 function AlternativeAffairs() {
-    return (
-        <div>
+	return (
+		<div>
 
-        </div>
-    )
+		</div>
+	)
 }
 
 export default AlternativeAffairs

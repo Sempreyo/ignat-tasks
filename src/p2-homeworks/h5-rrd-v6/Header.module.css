@@ -32,19 +32,19 @@
 
 .header nav li {
 	height: 100%;
-	border-left: 1px solid #e6e6e6;
-	border-right: 1px solid #e6e6e6;
 }
 
 .header nav li + li {
 	margin-left: -1px;
 }
 
-.header nav li a {
+.link {
 	display: inline-flex;
 	align-items: center;
 	height: 100%;
 	padding: 0 30px;
+	border-left: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
 	font-size: 18px;
 	font-weight: 500;
 	color: #000000;
@@ -52,6 +52,10 @@
 	transition: background-color 0.3s ease;
 }
 
-.header nav li a:hover {
+.link:hover {
 	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.active {
+	color: #d01d22;
 }

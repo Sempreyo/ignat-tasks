@@ -1,9 +1,9 @@
 import React from 'react'
 
 function AlternativeSuperButton() {
-    return (
-        <button/>
-    )
+	return (
+		<button/>
+	)
 }
 
 export default AlternativeSuperButton
