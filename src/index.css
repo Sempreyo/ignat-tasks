@@ -5,6 +5,8 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: url("./assets/images/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 code {
@@ -13,47 +15,11 @@ code {
 }
 
 .container {
-    max-width: 630px;
-    width: 100%;
-    padding: 0 15px 70px;
+    max-width: 100%;
+    width: 1310px;
+    padding: 0 30px;
     margin: 0 auto;
-}
-
-.btn {
-    font-size: 26px;
-    line-height: 26px;
-    color: #ffffff;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 3px;
-    background-color: #d01d22;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #ac181c;
-}
-
-.btn:disabled {
-    background-color: #a5a5a5;
-    color: #6d6d6d;
-    pointer-events: none;
-}
-
-input {
-    height: 46px;
-    margin: 0;
-    padding: 0 10px;
-    border: 2px solid #656565;
-    border-radius: 5px;
-    outline: none;
+    background-color: #fff;
     box-sizing: border-box;
-    font-size: 20px;
-    transition: border-color 0.3s ease;
-}
-
-input:hover,
-input:focus {
-    border: 2px solid #000000;
+    position: relative;
 }
